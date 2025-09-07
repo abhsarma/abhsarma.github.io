@@ -40,12 +40,12 @@ body {
 }
 
 .dp {
-	width: 95%;
+	width: 100%;
 }
 
 @media (max-width: 767px) {
     .dp {
-    	width: 75%;
+    	width: 50%;
     	margin-top: -96px;
     	margin-bottom: 64px;
     }
@@ -78,7 +78,7 @@ h2.title {
 	font-family: 'kepler-b', serif;
 	font-size: 90px;
 	line-height: 0.8;
-	margin-top: 0px;
+	margin-top: 24px;
 }
 
 h2.small-title {
@@ -157,7 +157,7 @@ h6.highlight-header {
 p {
 	font-family: 'AvenirNext-Regular', sans-serif;
 	color: #5b5e6d;
-	font-size: 1em;
+	font-size: 16px;
 	line-height: 1.5;
 }
 
@@ -165,8 +165,8 @@ p {
 p.intro {
 	color: #5b5e6d;
 	font-family: 'AvenirNext-Regular', sans-serif;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: 16px;
+	line-height: 1.5;
 	margin: 16px 0px 24px 0px;
 }
 
@@ -197,7 +197,7 @@ ul.body-text{
 	color: #444;
 	font-family: 'AvenirNext-Regular', sans-serif;
 	color: #444;
-	font-size: 1em;
+	font-size: 16px;
 	line-height: 1.5;
 	padding-left: 20px;
 }
@@ -215,19 +215,25 @@ span.highlight {
 	color: #FF9E2B;
 }
 
+span.links {
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'AvenirNext-Regular', sans-serif;
+}
+
 /*
 For publications
 */
 
 span.paper-title{
 	font-family: 'AvenirNext-DemiBold', sans-serif;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
 span.authors{
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 1.5;
 	font-family: 'AvenirNext-Regular', sans-serif;
 }
 
@@ -318,7 +324,7 @@ a.header-link {
 }
 
 .cv{
-	font-size: 14px !important;
+	font-size: 16px !important;
 	font-family: 'AvenirNext-Bold', sans-serif;
 	/*margin-top: 24px !important;*/
 }
